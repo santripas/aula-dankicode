@@ -6,19 +6,8 @@
     box-sizing: border-box;
 }
 
-.table {
-    display: table;
-    width: 900px;
-    margin: 0 auto;
-    border-collapse: collapse;
-}
-
-.table-row {
-    display: table-row;
-}
-
-.table-cel {
-    padding: 10px;
-    border: 1px solid black;
-    display: table-cell;
+.box {
+    width: 100%;
+    height: 500px;
+    background: radial-gradient(red,orange,black);
 }
