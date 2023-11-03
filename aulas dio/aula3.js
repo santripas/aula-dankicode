@@ -45,6 +45,9 @@ Código Condição de pagamento:
 - Em duas vezes, preço normal de etiqueta sem juros;
 - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
 */
+function aplicarDesconto(desconto,precoProduto){
+    
+}
 
 const precoProduto = 100;
 const condPagamento = 4;
