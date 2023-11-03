@@ -1,3 +1,4 @@
+/*
 function aplicarDesconto(precoProduto,desconto){
     return (precoProduto - (precoProduto * (desconto / 100)));
 
@@ -26,5 +27,11 @@ if(condPagamento === 1){
 }
 
 console.log( 200 / 100);
+*/
 
+function incrementarJuros(valor, percentualDeJuros) {
+    const incremento = (percentualDeJuros / 100) * valor;
+    return valor + incremento;
+}
 
+console.log(incrementarJuros(100,10));
